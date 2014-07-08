@@ -51,7 +51,7 @@ class Wrapper
      * @param string  $base    The base url for api urls
      * @param Browser $browser The browser used to make requests
      */
-    function __construct(
+    public function __construct(
         $key,
         $base = 'http://sandbox.crowdentials.com/cai/api/v2',
         Browser $browser = null

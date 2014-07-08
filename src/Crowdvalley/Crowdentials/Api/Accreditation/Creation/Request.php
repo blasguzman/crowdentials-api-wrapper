@@ -62,7 +62,7 @@ class Request
      * @param string|null $phone
      * @param string|null $client
      */
-    function __construct(
+    public function __construct(
         $firstName = null,
         $lastName = null,
         $email = null,

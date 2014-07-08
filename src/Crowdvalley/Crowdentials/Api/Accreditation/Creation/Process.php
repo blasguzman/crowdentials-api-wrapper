@@ -32,7 +32,7 @@ class Process
      * @param int            $id
      * @param null|\DateTime $created
      */
-    function __construct($id, $created = null)
+    public function __construct($id, $created = null)
     {
         $this->id = $id;
         $this->created = $created;

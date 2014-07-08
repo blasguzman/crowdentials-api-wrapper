@@ -1,2 +1,5 @@
 extensions:
     - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+    format: clover
+

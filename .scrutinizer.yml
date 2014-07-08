@@ -1,11 +1,10 @@
-imports:
-    - php
+filter:
+    paths: ["src/*"]
 
 tools:
-  php_code_sniffer:
-    filter:
-      excluded-paths: [ spec/*, vendor/* ]
+    external_code_coverage: true
 
-  php_analyzer:
-    filter:
-      excluded-paths: [ spec/*, vendor/* ]
+checks:
+    php:
+        code_rating: true
+        duplication: true

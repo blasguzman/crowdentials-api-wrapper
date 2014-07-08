@@ -1,6 +1,8 @@
 Crowdentials Api Wrapper
 ========================
 
+Provides a wrapper for Crowdentials Api.
+
 # Installation
 
 ## Setup through composer
@@ -24,8 +26,6 @@ $> composer install --prefer-dist
 You can read more about Composer on its [official webpage](http://getcomposer.org).
 
 # Examples
-
-Provides a wrapper for Crowdentials Api.
 
 ## Sends an accreditation request
 

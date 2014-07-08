@@ -1,0 +1,24 @@
+{
+    "name": "crowdvalley/crowdentials-api-wrapper",
+    "description": "Provides a wrapper for Crowdentials Api",
+    "type": "library",
+    "keywords": ["crowdentials", "investor", "accreditation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosmany Garcia",
+            "email": "yosmanyga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "kriswallsmith/buzz": "0.10.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*",
+        "henrikbjorn/phpspec-code-coverage": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": { "Crowdvalley\\Crowdentials\\Api": "src/" }
+    }
+}

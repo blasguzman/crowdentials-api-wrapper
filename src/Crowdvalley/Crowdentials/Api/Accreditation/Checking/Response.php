@@ -53,7 +53,7 @@ class Response
      */
     private $date;
 
-    function __construct($state, $firstName, $lastName, $date)
+    public function __construct($state, $firstName, $lastName, $date)
     {
         $this->state = $state;
         $this->firstName = $firstName;

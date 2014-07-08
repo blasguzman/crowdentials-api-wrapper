@@ -30,7 +30,7 @@ class FailureResponse
     /**
      * @param string $reason
      */
-    function __construct($reason)
+    public function __construct($reason)
     {
         $this->reason = $reason;
     }

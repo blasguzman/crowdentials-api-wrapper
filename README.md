@@ -1,6 +1,10 @@
 Crowdentials Api Wrapper
 ========================
 
+[![Build Status](https://travis-ci.org/crowdvalley/crowdentials-api-wrapper.svg?branch=master)](https://travis-ci.org/crowdvalley/crowdentials-api-wrapper)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/crowdvalley/crowdentials-api-wrapper/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/crowdvalley/crowdentials-api-wrapper/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/crowdvalley/crowdentials-api-wrapper/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/crowdvalley/crowdentials-api-wrapper/?branch=master)
+
 Provides a wrapper for Crowdentials Api.
 
 # Installation

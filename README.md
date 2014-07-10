@@ -7,13 +7,13 @@ Crowdentials Api Wrapper
 
 Provides a wrapper for Crowdentials Api.
 
-# Installation
+## Installation
 
-## Setup through composer
+### Setup through composer
 
 First, add it to the list of dependencies inside your `composer.json`:
 
-```json
+``` json
 {
     "require": {
         "crowdvalley/crowdentials-api-wrapper": "dev-master"
@@ -23,15 +23,13 @@ First, add it to the list of dependencies inside your `composer.json`:
 
 Then simply install it with composer:
 
-```bash
-$> composer install --prefer-dist
+``` bash
+$> composer update crowdvalley/crowdentials-api-wrapper
 ```
 
-You can read more about Composer on its [official webpage](http://getcomposer.org).
+## Examples
 
-# Examples
-
-## Sends an accreditation request
+### Sends an accreditation request
 
 ```
 use Crowdvalley\Crowdentials\Api\Accreditation\Wrapper as ApiWrapper;
@@ -56,7 +54,7 @@ echo $process->getCreated()->format('Y-m-d H:i:s');
 echo "\r\n";
 ```
 
-## Gets an accreditation request
+### Gets an accreditation request
 
 ```
 use Crowdvalley\Crowdentials\Api\Accreditation\Wrapper as ApiWrapper;
@@ -97,7 +95,7 @@ $response->getDate();
 
 ```
 
-## Removes an accreditation request
+### Removes an accreditation request
 
 ```
 use Crowdvalley\Crowdentials\Api\Accreditation\Wrapper as ApiWrapper;
